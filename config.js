@@ -11,7 +11,6 @@ ALIVE_MSG: process.env.ALIVE_IMG || "🤖🔰 Hi QUEEN-KYLIE-MD Is Online Now �
 SUDO_NB: process.env.SUDO_NB || "94718913389",
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
 MODE: process.env.MODE || "public",
-OMDB_API_KEY: process.env.OMDB_API_KEY || "76cb7f39",
 AUTO_VOICE:"true"
 };
 
