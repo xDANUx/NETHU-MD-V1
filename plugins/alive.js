@@ -10,7 +10,9 @@ cmd({
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
-
+const voice = {
+    alive: 'media/AUD-20240908-WA0190.aac'
+                    }
 let des = `*👋 Hello ${pushname}*
 
 *╔╭────────────╮╕*
@@ -27,6 +29,7 @@ let des = `*👋 Hello ${pushname}*
 *➣ ᴡʜᴀᴛꜱᴀᴘᴘ ᴄʜᴀɴɴᴇʟ⚡* = https://whatsapp.com/channel/0029VaiTjMlK5cDLek3bB533
 
 *©Qᴜᴇᴇɴ ᴋʏʟɪᴇ-ᴍᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜッ*`
+await conn.sendMessage(from, { audio: { url: voice.alive }, mimetype: 'audio/mp4', ptt: true }, { quoted: mek })
 return await conn.sendMessage(from,{image: {url: `https://telegra.ph/file/9b44e3266c065df601430.jpg`},caption: des},{quoted: mek})
 }catch(e){
 console.log(e)
