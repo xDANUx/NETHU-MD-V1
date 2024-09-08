@@ -85,7 +85,7 @@ let dec = `*👋 Hello ${pushname}*
 *│►.promote*
 *│►.demote*
 *│►.remove*
-*│►.setpic*
+*│►.getpic*
 *│►.del*
 *│►.add*
 *│►.setwelcome*
