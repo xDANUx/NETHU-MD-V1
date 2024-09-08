@@ -42,7 +42,8 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 🏆 *Awards:* ${data.Awards}
 ⭐ *IMDB Rating:* ${data.imdbRating}
 🗳️ *IMDB Votes:* ${data.imdbVotes}
-`;
+
+*©Qᴜᴇᴇɴ ᴋʏʟɪᴇ-ᴍᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜッ*`;
 
         // Define the image URL
         const imageUrl = data.Poster && data.Poster !== 'N/A' ? data.Poster : config.ALIVE_IMG;
@@ -50,7 +51,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         // Send the movie information along with the poster image
         await conn.sendMessage(from, {
             image: { url: imageUrl },
-            caption: `${movieInfo}\n> KING HANSA-MD`
+            caption: `${movieInfo}\n> *©Qᴜᴇᴇɴ ᴋʏʟɪᴇ-ᴍᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜッ*`
         }, { quoted: mek });
     } catch (e) {
         console.log(e);
