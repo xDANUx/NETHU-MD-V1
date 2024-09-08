@@ -10,9 +10,6 @@ cmd({
 
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
-const voice = {
-    alive: 'AUD-20240904-WA0426.mp3'
-}
 
 let dec = `*👋 Hello ${pushname}*
 
@@ -88,15 +85,13 @@ let dec = `*👋 Hello ${pushname}*
 *│►.promote*
 *│►.demote*
 *│►.remove*
-*│►.getpic*
+*│►.setpic*
 *│►.del*
 *│►.add*
 *│►.setwelcome*
 *│►.setgoodbye*
 *╰───────────◎◎►*
 *©Qᴜᴇᴇɴ ᴋʏʟɪᴇ-ᴍᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜッ*`
-    
-await conn.sendMessage(from, { audio: { url: voice.menu }, mimetype: 'audio/mp4', ptt: true }, { quoted: mek })
 await conn.sendMessage(from,{image:{url: `https://telegra.ph/file/938f552daff11c7f73378.jpg`},caption:dec},{quoted:mek});
 
 }catch(e){
