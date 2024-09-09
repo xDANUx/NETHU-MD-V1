@@ -1,6 +1,4 @@
 const {cmd , commands} = require('../command');
-const { igdl } = require('ruhend-scraper');
-
 cmd({
     pattern: "ig",
     desc: "To download instagram videos.",
