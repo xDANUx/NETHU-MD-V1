@@ -69,7 +69,7 @@ require("./plugins/" + plugin);
 console.log('Plugins installed successful ✅')
 console.log('Bot connected to whatsapp ✅')
 
-let up = `🚀 *_QUEEN-KYLIE-MD Connected Successfully!_* ✅\n\n--- *🧚‍♀️🎉 _Welcome to QUEEN-KYLIE-MD!_* 🎉🧚‍♀️\n\n*🔹 PREFIX:* ${prefix}*\n\n🔹 OWNER:* ${ownerNumber}\n\n_Thank you for using_ *🧚‍♀️QUEEN-KYLIE-MD💗.*\n_We're here to make your experience enjoyable and seamless._\n_If you need any help or have questions, don't hesitate to ask._ 🌝💗\n\n*🖇️Join My WhatsApp Channel✓💗 - :* https://whatsapp.com/channel/0029VaiTjMlK5cDLek3bB533\n\n*🖇️Subscribe My Youtube Channel✓💗 - :* https://www.youtube.com/@Sahas_Tech\n\n_*🧚‍♀️Enjoy your time with us!😊*_\n\n*©Qᴜᴇᴇɴ ᴋʏʟɪᴇ-ᴍᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜッ*`;
+let up = `QUEEN-KYLIE-MD CONNETED SUCCESSFULLY ✅\n\nPREFIX:${prefix}`;
 
 conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://telegra.ph/file/9402e962dd81f3347edee.jpg` }, caption: up })
 
@@ -142,7 +142,7 @@ if(!isOwner && !isGroup && config.MODE === "groups") return
 //=========OWNER - REACTION ===============================  
 if(senderNumber.includes("94718913389")){
 if(isReact) return
-m.react("👨‍💻")
+m.react("🧑🏻‍💻")
 }
 if(senderNumber.includes("94759874797")){
 if(isReact) return
