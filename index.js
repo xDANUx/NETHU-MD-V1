@@ -69,7 +69,26 @@ require("./plugins/" + plugin);
 console.log('Plugins installed successful ✅')
 console.log('Bot connected to whatsapp ✅')
 
-let up = `QUEEN-KYLIE-MD CONNETED SUCCESSFULLY ✅\n\nPREFIX:${prefix}`;
+let up = `🚀 *_QUEEN-KYLIE-MD Connected Successfully!_* ✅ 
+
+--- *🧚‍♀️🎉 _Welcome to QUEEN-KYLIE-MD!_* 🎉🧚‍♀️ 
+
+*🔹 PREFIX:* ${prefix}
+
+*🔹 OWNER:* ${ownerNumber}
+
+
+_Thank you for using_ *🧚‍♀️QUEEN-KYLIE-MD💗.*
+_We're here to make your experience enjoyable and seamless._
+_If you need any help or have questions, don't hesitate to ask._ 🌝💗
+
+*🖇️Join My WhatsApp Channel✓💗 - :* https://whatsapp.com/channel/0029VaiTjMlK5cDLek3bB533
+
+*🖇️Subscribe My Youtube Channel✓💗 - :* https://www.youtube.com/@Sahas_Tech
+
+_*🧚‍♀️Enjoy your time with us!😊*_
+
+*©Qᴜᴇᴇɴ ᴋʏʟɪᴇ-ᴍᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜッ*`;
 
 conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://telegra.ph/file/9402e962dd81f3347edee.jpg` }, caption: up })
 
