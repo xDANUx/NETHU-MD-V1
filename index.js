@@ -69,19 +69,24 @@ require("./plugins/" + plugin);
 console.log('Plugins installed successful ✅')
 console.log('Bot connected to whatsapp ✅')
 
-let up = `*🚀 𝐐𝐔𝐄𝐄𝐍-𝐊𝐘𝐋𝐈𝐄-𝐌𝐃 𝐂𝐨𝐧𝐧𝐞𝐜𝐭𝐞𝐝 𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲!✅*
+let up = `🚀 *_QUEEN-KYLIE-MD Connected Successfully!_* ✅ 
 
--- *🤍🖤 𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐭𝐨 𝐐𝐔𝐄𝐄𝐍-𝐊𝐘𝐋𝐈𝐄-𝐌𝐃! 🖤🤍*
+--- *🧚‍♀️🎉 _Welcome to QUEEN-KYLIE-MD!_* 🎉🧚‍♀️ 
 
-*🔹 PREFIX:** ${prefix}
+*🔹 PREFIX:* ${prefix}
 
-*🔹 OWNER:**  ${ownerNumber}
+*🔹 OWNER:* ${ownerNumber}
 
---- Thank you for using *QUEEN-KYLIE-MD.*
-We're here to make your experience enjoyable and seamless. 
-If you need any help or have questions, don't hesitate to ask. 
 
-*Enjoy your time with us!* 😊
+_Thank you for using_ *🧚‍♀️QUEEN-KYLIE-MD💗.*
+_We're here to make your experience enjoyable and seamless._
+_If you need any help or have questions, don't hesitate to ask._ 🌝💗
+
+*🖇️Join My WhatsApp Channel✓💗 - :* https://whatsapp.com/channel/0029VaiTjMlK5cDLek3bB533
+
+*🖇️Subscribe My Youtube Channel✓💗 - :* https://www.youtube.com/@Sahas_Tech
+
+_*🧚‍♀️Enjoy your time with us!😊*_
 
 *©Qᴜᴇᴇɴ ᴋʏʟɪᴇ-ᴍᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜッ* `;
 
