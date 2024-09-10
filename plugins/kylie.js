@@ -4,6 +4,7 @@ cmd({
     pattern: "kylie",
     desc: "wallpaper the bot",
     category: "main",
+    react: "🎗️",
     filename: __filename
 },
 
