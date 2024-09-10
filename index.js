@@ -69,7 +69,21 @@ require("./plugins/" + plugin);
 console.log('Plugins installed successful ✅')
 console.log('Bot connected to whatsapp ✅')
 
-let up = `QUEEN-KYLIE-MD CONNETED SUCCESSFULLY ✅\n\nPREFIX:${prefix}`;
+let up = `*🚀 𝐐𝐔𝐄𝐄𝐍-𝐊𝐘𝐋𝐈𝐄-𝐌𝐃 𝐂𝐨𝐧𝐧𝐞𝐜𝐭𝐞𝐝 𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲!✅*
+
+-- *🤍🖤 𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐭𝐨 𝐐𝐔𝐄𝐄𝐍-𝐊𝐘𝐋𝐈𝐄-𝐌𝐃! 🖤🤍*
+
+*🔹 PREFIX:** ${prefix}
+
+*🔹 OWNER:**  ${ownerNumber}
+
+--- Thank you for using *QUEEN-KYLIE-MD.*
+We're here to make your experience enjoyable and seamless. 
+If you need any help or have questions, don't hesitate to ask. 
+
+*Enjoy your time with us!* 😊
+
+*©Qᴜᴇᴇɴ ᴋʏʟɪᴇ-ᴍᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜッ* `;
 
 conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://telegra.ph/file/9402e962dd81f3347edee.jpg` }, caption: up })
 
@@ -142,7 +156,7 @@ if(!isOwner && !isGroup && config.MODE === "groups") return
 //=========OWNER - REACTION ===============================  
 if(senderNumber.includes("94718913389")){
 if(isReact) return
-m.react("🧑🏻‍💻")
+m.react("👨‍💻")
 }
 if(senderNumber.includes("94759874797")){
 if(isReact) return
