@@ -89,7 +89,7 @@ let madeMenu = ` *👋 Hello ${pushname}*
 
 await conn.sendMessage(from, { audio: { url: voice.menu }, mimetype: 'audio/mp4', ptt: true }, { quoted: mek })
 
-return await conn.sendMessage(from,{image: {url: `https://telegra.ph/file/938f552daff11c7f73378.jpg`},caption:madeMenu},{quoted: mek})
+return await conn.sendMessage(from,{image: {url: `https://imgtr.ee/images/2024/09/13/83ac01c405f9d78df8dacb96400ac5c2.jpeg`},caption:madeMenu},{quoted: mek})
 }catch(e){
 console.log(e)
 reply(`Error`)
