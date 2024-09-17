@@ -3,7 +3,7 @@ cmd({
     pattern: "ig",
     desc: "To download instagram videos.",
     category: "download",
-    react: "🔎",
+    react: "🕒",
     filename: __filename
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
@@ -13,7 +13,7 @@ try{
     return reply('*`ρℓєαѕє gινє α ωαιℓ∂ ιηѕтαgяαм ℓιηк`*');
   }
 
-  await m.react('🕒');
+  await m.react('🔽');
   let res;
   try {
     res = await igdl(args[0]);
@@ -39,7 +39,7 @@ try{
 
   await m.react('✅');
   let video = data.url;
-  let dev = '*©Qᴜᴇᴇɴ ᴋʏʟɪᴇ-ᴍᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜッ*'
+  let dev = '> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɴᴇᴛʜᴍɪᴋᴀ ᴍᴀɪɴ*'
   
   try {
     await conn.sendMessage(m.chat, { video: { url: video }, caption: dev, fileName: 'ig.mp4', mimetype: 'video/mp4' }, { quoted: m });
