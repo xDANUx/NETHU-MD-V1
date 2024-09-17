@@ -13,22 +13,19 @@ try{
 
 let dec = `*👋 Hello ${pushname}*
 
-*📍REPO LINK ❤️‍🔥👇*
+*REPO LINK 👇*
+🧚‍♀️◦පුකද බලන්නේ 😹
 
-🧚‍♀️◦https://github.com/QUEEN-KYLIE-MD-01/QUEEN-KYLIE-MD/tree/main
+*PLEASE SUBSCRIBE MY YOUTUBE CHANNEL 👇*
+🧚‍♀️◦ https://www.youtube.com/@SlNethuMax
 
-*📍PLEASE SUBSCRIBE MY YOUTUBE CHANNEL ❤️‍🔥👇*
+*PLEASE FOLLOW MY WHATSAPP CHANNEL 👇*
+🧚‍♀️◦ https://whatsapp.com/channel/0029VagCogPGufJ3kZWjsW3A
 
-🧚‍♀️◦ https://www.youtube.com/@Sahas_Tech
-
-*📍PLEASE FOLLOW MY WHATSAPP CHANNEL❤️‍🔥👇*
-
-🧚‍♀️◦ https://whatsapp.com/channel/0029VaiTjMlK5cDLek3bB533
-
-*©Qᴜᴇᴇɴ ᴋʏʟɪᴇ-ᴍᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜッ*
+> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɴᴇᴛʜᴍɪᴋᴀ ᴍᴀɪɴ*
 
 `
-await conn.sendMessage(from,{image:{url: `https://i.ibb.co/my0RZww/IMG-20240913-WA0047.jpg`},caption:dec},{quoted:mek});
+await conn.sendMessage(from,{image:{url: `https://imgtr.ee/images/2024/09/17/37f9be869d1404ef1a5d188178450537.jpeg`},caption:dec},{quoted:mek});
 
 }catch(e){
 console.log(e)
