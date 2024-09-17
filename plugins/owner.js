@@ -13,10 +13,13 @@ try{
 
 let dec = `*👋 Hello ${pushname}*
 
-*➣ᴏᴡɴᴇʀ ɴᴀᴍᴇ* -: ɴᴇᴛʜᴍɪᴋᴀ ᴍᴀɪɴ
-*➣ɴᴜᴍʙᴇʀ* -: 94704227534 ᴏʀ 94787072548
-*➣ʏᴏᴜᴛᴜʙᴇ* -: https://www.youtube.com/@SlNethuMax
-*➣ᴡʜᴀᴛꜱᴀᴘᴘ ᴄʜᴀɴɴᴇʟ* -: https://whatsapp.com/channel/0029VagCogPGufJ3kZWjsW3A
+*➣ ᴏᴡɴᴇʀ ɴᴀᴍᴇ* -: ɴᴇᴛʜᴍɪᴋᴀ ᴍᴀɪɴ
+
+*➣ ɴᴜᴍʙᴇʀ* -: 94704227534 ᴏʀ 94787072548
+
+*➣ ʏᴏᴜᴛᴜʙᴇ* -: https://www.youtube.com/@SlNethuMax
+
+*➣ ᴡʜᴀᴛꜱᴀᴘᴘ ᴄʜᴀɴɴᴇʟ* -: https://whatsapp.com/channel/0029VagCogPGufJ3kZWjsW3A
 
 > *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɴᴇᴛʜᴍɪᴋᴀ ᴍᴀɪɴ*
 `
