@@ -22,6 +22,7 @@ let status =`┌────────────────────
     └───────────────────────
     > *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɴᴇᴛʜᴍɪᴋᴀ ᴍᴀɪɴ*`
 return reply(`${status}`)
+await conn.sendMessage(from,{image:{url: `https://imgtr.ee/images/2024/09/17/37f9be869d1404ef1a5d188178450537.jpeg`},caption:dec},{quoted:mek});
 }catch(e){
 console.log(e)
 reply(`${e}`)
