@@ -20,8 +20,8 @@ let status =`
     *Platform:- ${os.hostname()}*
     *Owner:- Nethmika Main*   
     *Version:- 1.0.0*
-└───────────────────────
-    *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɴᴇᴛʜᴍɪᴋᴀ ᴍᴀɪɴ*`
+└────────────────────
+*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɴᴇᴛʜᴍɪᴋᴀ ᴍᴀɪɴ*`
 return reply(`${status}`)
 }catch(e){
 console.log(e)
