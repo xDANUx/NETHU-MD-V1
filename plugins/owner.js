@@ -12,14 +12,15 @@ async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender
 try{
 
 let dec = `*👋 Hello ${pushname}*
+______________________________________________________
+|*👨‍💻 ᴏᴡɴᴇʀ ɴᴀᴍᴇ* -: ɴᴇᴛʜᴍɪᴋᴀ ᴍᴀɪɴ
 
-*➣ ᴏᴡɴᴇʀ ɴᴀᴍᴇ* -: ɴᴇᴛʜᴍɪᴋᴀ ᴍᴀɪɴ
+|*✳️ ɴᴜᴍʙᴇʀ* -: 94704227534 ᴏʀ 94787072548
 
-*➣ ɴᴜᴍʙᴇʀ* -: 94704227534 ᴏʀ 94787072548
+|*⭕ ʏᴏᴜᴛᴜʙᴇ* -: https://www.youtube.com/@SlNethuMax
 
-*➣ ʏᴏᴜᴛᴜʙᴇ* -: https://www.youtube.com/@SlNethuMax
-
-*➣ ᴡʜᴀᴛꜱᴀᴘᴘ ᴄʜᴀɴɴᴇʟ* -: https://whatsapp.com/channel/0029VagCogPGufJ3kZWjsW3A
+|*⭕ ᴡʜᴀᴛꜱᴀᴘᴘ ᴄʜᴀɴɴᴇʟ* -: https://whatsapp.com/channel/0029VagCogPGufJ3kZWjsW3A
+______________________________________________________
 
 > *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɴᴇᴛʜᴍɪᴋᴀ ᴍᴀɪɴ*
 `
