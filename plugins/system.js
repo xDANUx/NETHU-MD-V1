@@ -7,7 +7,7 @@ cmd({
     alias: ["status","botinfo"],
     desc: "check up time",
     category: "main",
-    react: "👀",
+    react: "📟",
     filename: __filename
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
@@ -17,10 +17,10 @@ let status =`┌────────────────────
     *├ ⏰ Runtime:-  ${runtime(process.uptime())}*    
     *├ 📟 Ram usage:- ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB*
     *├ ⚙️ Platform:- ${os.hostname()}*
-    *├ 👨‍💻 Owner:- Sahas Nethsara*   
+    *├ 👨‍💻 Owner:- Nethmika Main*   
     *├ 👾 Version:- 1.0.0*
     └───────────────────────
-    *©Qᴜᴇᴇɴ ᴋʏʟɪᴇ-ᴍᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜッ*`
+    > *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɴᴇᴛʜᴍɪᴋᴀ ᴍᴀɪɴ*`
 return reply(`${status}`)
 }catch(e){
 console.log(e)
