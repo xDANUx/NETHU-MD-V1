@@ -1,35 +1,63 @@
+```NETHU-MD WHATSAPP USER BOT CREATED BY MR NETHMIKA OFC```
 
 <div align="center">
-
-     
- [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F01&lines=QUEEN+KYLIE+MD+WATSAPP+BOT)](https://git.io/typing-svg)
-
-📍ＮＥＷ ＶＥＲＳＩＯＮ ＣＯＭＩＮＧ ＳＯＯＮ...📍
-
-📍𝗣𝗔𝗜𝗥 𝗖𝗢𝗗𝗘 QUEEN-KYLIE-MD📍
-
-<a href="https://pair-web-public.koyeb.app/"><img src="https://i.ibb.co/5BGSVZw/pair-code-btn-zusyco.png" alt="PAIR-CODE" border="2" width="170" height="41" ></a>
+    <b>NETHU-MD USER BOT</b>
 
 
+<div align="left">
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Rubik+Dirt&size=65&pause=1000&color=F72C3F&background=FF20A500&center=true&vCenter=true&width=1000&height=150&lines=NETHU+MD;CREATED+BY+NETHU_MIND;Nethmika" alt="Typing SVG" /></a>   
+</p> 
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+   <p align="center">
+<a href="https://github.com/nethu-cloud">
+    <img src="https://imgtr.ee/images/2024/09/17/37f9be869d1404ef1a5d188178450537.jpeg" width="700px">
+  </a>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+`NETHU-MD` whatsapp bot is,
+
+      NETHU-MD යනු ඔබට පහසුවෙන් හැසිරවිය හැකි Bot වරයෙකි.
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+<p align="center">
+
+  <a aria-label="WhatsApp Supported Channel" href="https://whatsapp.com/channel/0029VagCogPGufJ3kZWjsW3A" target="_blank">
+    <img alt="whatsapp" src="https://img.shields.io/badge/Join Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+  </a>
   <p align="center">
-<a href="https://github.com/QUEEN-KYLIE-MD-01/QUEEN-KYLIE-MD/new/main">
-    <img src="https://i.ibb.co/tCkmbMx/IMG-20240913-WA0041.jpg"  width="700px">
-</a>
-<hr>
+<a href="https://github.com/nethu-cloud/NETHU-MD-V1/fork" target="blank"><img align="center" src="https://i.imgur.com/cxaSEWe.png" alt="Deploy bot" height="112" width="310" /></a>
+  <div>
+      
+<div>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-<hr>
+<a href="https://pair-web-public.koyeb.app//"><img src="https://img.shields.io/badge/LOGIN%20WITH-PAIR%20CODE-black" alt="LOGIN WITH PAIR CODE" width="250"></a>
 
-👾ＣＲＥＡＴＥＤ ＢＹ ＳＡＨＡＳ ＴＥＣＨ👾
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-## HOW TO DEPLOY QUEEN-KYLIE-MD 👨‍💻
+### DEPLOY HEROKU
 
-1) 𝙵𝙸𝚁𝚂𝚃 𝙵𝙾𝚁𝙺 𝚃𝙷𝙴 𝚁𝙴𝙿𝙾.
-2) 𝚂𝙲𝙰𝙽 𝚃𝙷𝙴 𝙿𝙰𝙸𝚁 𝙲𝙾𝙳𝙴 𝚃𝙷𝙴𝙽 𝚆𝙸𝙻𝙻 𝙲𝙾𝙼𝙴 𝚂𝙴𝚂𝚂𝙸𝙾𝙽 𝙸𝙳.
-4) 𝙰𝙽𝙳 𝚂𝙴𝙻𝙴𝙲𝚃 𝙵𝙾𝚁𝙺 𝚁𝙴𝙿𝙾 𝙰𝙽𝙳 𝙳𝙴𝙿𝙻𝙾𝚈 𝚃𝙷𝙴 𝙱𝙾𝚃.
-5) 𝙿𝚄𝚃 𝙳𝚈𝙽𝙾 𝚃𝙾 𝙿𝚁𝙾𝙵𝙴𝚂𝚂𝙸𝙾𝙽𝙰𝙻 𝙰𝙽𝙳 𝙿𝚄𝚃 𝙸𝚃 2𝚇.
-6) 𝙽𝙾𝚆 𝙴𝙽𝙹𝙾𝚈 𝚃𝙷𝙴 𝚀𝚄𝙴𝙴𝙽 𝙺𝚈𝙻𝙸𝙴 𝙼𝙳 𝙱𝙾𝚃.
-\\-------------------------------------------//
-## THANKS TO 💗⚡
+ [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Nethmikakaushalyaherath/NETHU-MD)
 
-• SHADOW - MD 📍💯
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
+### Contact My Main Owner
+ <p align="center">
+
+  <a aria-label="Owner WhatsApp Channel" href="https://wa.me/+94704227534?text=Hey_Netha_🤍" target="_blank">
+    <img alt="whatsapp" src="https://img.shields.io/badge/WhatsApp Owner-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+  </a>
+
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+<h2 align="center"> 
+</h2>
+
+`Thanks To,me 😅`
+
+
+
+***`WARNING` : `DON'T MODIFY THIS BOT FIRST INFORM THE OWNER`***
