@@ -6,7 +6,7 @@ const {runtime} = require('../lib/functions')
 cmd({
     pattern: "phub",
     desc: "Get bot\'s command list.",
-    react: "💃",
+    react: "🔞",
     category: "search",
     filename: __filename
 },
