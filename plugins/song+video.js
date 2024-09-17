@@ -6,7 +6,7 @@ cmd({
     pattern: "song",
     desc: "download songs",
     category: "download",
-    react: "🎶",
+    react: "🎧",
     filename: __filename
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
@@ -16,17 +16,15 @@ const search = await yts(q)
 const data = search.videos[0]
 const url = data.url
 
-let desc = `*🎼 QUEEN-KYLIE-MD SONG DOWNLOADER . .⚙️*
+let desc = `*NETHU-MD SONG DOWNLOADER*
 
-🎼⚙️ TITLE - ${data.title}
+➣ TITLE - ${data.title}
 
-🎼⚙️ VIEWS - ${data.views}
+➣ DESCRIPTION - ${data.description}
 
-🎼⚙️ DESCRIPTION - ${data.description}
-
-🎼⚙️ TIME - ${data.timestamp}
-
-🎼⚙️ AGO - ${data.ago}
+➣ VIEWS - ${data.views}
+➣ TIME - ${data.timestamp}
+➣ AGO - ${data.ago}
 
 *©Qᴜᴇᴇɴ ᴋʏʟɪᴇ-ᴍᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜッ*
 `
@@ -39,7 +37,7 @@ let downloadUrl = down.dl_url
 
 //send audio
 await conn.sendMessage(from,{audio:{url: downloadUrl},mimetype:"audio/mpeg"},{quoted:mek})
-await conn.sendMessage(from,{document:{url: downloadUrl},mimetype:"audio/mpeg",fileName:data.title + "mp3",caption:"*©Qᴜᴇᴇɴ ᴋʏʟɪᴇ-ᴍᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜッ*"},{quoted:mek})
+await conn.sendMessage(from,{document:{url: downloadUrl},mimetype:"audio/mpeg",fileName:data.title + "mp3",caption:"> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɴᴇᴛʜᴍɪᴋᴀ ᴍᴀɪɴ*"},{quoted:mek})
 }catch(e){
 reply(`${e}`)
 }
@@ -51,7 +49,7 @@ cmd({
     pattern: "video",
     desc: "download video",
     category: "download",
-    react: "📽️",
+    react: "🎬",
     filename: __filename
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
@@ -61,17 +59,15 @@ const search = await yts(q)
 const data = search.videos[0]
 const url = data.url
 
-let des = `*📽️ QUEEN-KYLIE-MD VIDEO DOWNLOADER . .⚙️*
+let des = `*NETHU-MD VIDEO DOWNLOADER*
 
-📽️⚙️ TITLE - ${data.title}
+➣ TITLE - ${data.title}
 
-📽️⚙️ VIEWS - ${data.views}
+➣ DESCRIPTION - ${data.description}
 
-📽️⚙️ DESCRIPTION - ${data.description}
-
-📽️⚙️ TIME - ${data.timestamp}
-
-📽️⚙️ AGO - ${data.ago}
+➣ VIEWS - ${data.views}
+➣ TIME - ${data.timestamp}
+➣ AGO - ${data.ago}
 
 *©Qᴜᴇᴇɴ ᴋʏʟɪᴇ-ᴍᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜッ*
 `
@@ -84,7 +80,7 @@ let downloadUrl = down.dl_url
 
 //send video
 await conn.sendMessage(from,{video:{url: downloadUrl},mimetype:"video/mp4"},{quoted:mek})
-await conn.sendMessage(from,{document:{url: downloadUrl},mimetype:"video/mp4",fileName:data.title + "mp4",caption:"*©Qᴜᴇᴇɴ ᴋʏʟɪᴇ-ᴍᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜッ*"},{quoted:mek})
+await conn.sendMessage(from,{document:{url: downloadUrl},mimetype:"video/mp4",fileName:data.title + "mp4",caption:"> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɴᴇᴛʜᴍɪᴋᴀ ᴍᴀɪɴ*"},{quoted:mek})
     
 }catch(a){
 reply(`${a}`)
