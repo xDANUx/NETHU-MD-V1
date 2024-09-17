@@ -41,7 +41,7 @@
 
  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/nethu-cloud/NETHU-MD-V1)
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+<img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
 
 ### Contact My Main Owner
  <p align="center">
@@ -51,7 +51,7 @@
   </a>
 
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+<img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
 
 <h2 align="center"> 
 </h2>
