@@ -30,10 +30,8 @@ let about = ` *👋 Hello ${pushname}*
  
 𝐂𝐑𝐄𝐀𝐓𝐄𝐃 𝐁𝐘 𝐍𝐄𝐓𝐇𝐌𝐈𝐊𝐀 𝐌𝐀𝐈𝐍...
            
-*ɢɪᴛʜᴜʙ :* පුකද බලන්නේ 😹
-             
-*ʏᴏᴜᴛᴜʙᴇ :* https://www.youtube.com/@SlNethuMax
-      
+*ɢɪᴛʜᴜʙ :* පුකද බලන්නේ 😹         
+*ʏᴏᴜᴛᴜʙᴇ :* https://www.youtube.com/@SlNethuMax   
 *ᴡʜᴀᴛꜱᴀᴘᴘ ᴄʜᴀɴɴᴇʟ :* https://whatsapp.com/channel/0029VagCogPGufJ3kZWjsW3A
 
 > *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɴᴇᴛʜᴍɪᴋᴀ ᴍᴀɪɴ*`
