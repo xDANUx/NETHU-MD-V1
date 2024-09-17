@@ -14,7 +14,7 @@ try{
 let dec = `*👋 Hello ${pushname}*
 
 *REPO LINK 👇*
-🧚‍♀️◦පුකද බලන්නේ 😹
+🧚‍♀️◦https://github.com/nethu-cloud/NETHU-MD-V1
 
 *PLEASE SUBSCRIBE MY YOUTUBE CHANNEL 👇*
 🧚‍♀️◦ https://www.youtube.com/@SlNethuMax
