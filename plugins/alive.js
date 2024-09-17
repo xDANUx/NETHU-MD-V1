@@ -13,22 +13,17 @@ try{
 const voice = {
     alive: 'media/AUD-20240909-WA0003'
                     }
-let des = `*👋 Hello ${pushname}*
+let des = `*👋 𝙷𝚎𝚕𝚕𝚘 ${pushname}*
 
-*╔╭────────────╮╕*
-*╭│I'm Alive Now👾  │─◎◎▷*
-*╘╰────────────╯╜*
-*│A QUEEN-KYLIE-MD │Whatsapp Bot Based │Many │Services With A │RealTime* *Automated │Consversational* *││Experience, Enjoy💫.*
-*| So,I Think This Bots Are Useful To You.📍*
-*│*
-*│Type .menu To Get Bot User*
-*│Menu💫*
-*╰───────────────◎◎▷*
- *➣ ʏᴏᴜᴛᴜʙᴇ⚡*= https://www.youtube.com/@Sahas_Tech
+Hello I'm alive now 🫧💨
 
-*➣ ᴡʜᴀᴛꜱᴀᴘᴘ ᴄʜᴀɴɴᴇʟ⚡* = https://whatsapp.com/channel/0029VaiTjMlK5cDLek3bB533
+Join Our Support Chanel : https://whatsapp.com/channel/0029VagCogPGufJ3kZWjsW3A 🌟
 
-*©Qᴜᴇᴇɴ ᴋʏʟɪᴇ-ᴍᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜッ*`
+Subscribe Our Youtube Chanel : https://www.youtube.com/@SlNethuMax 🌟
+
+Bot Owners : 94704227534 , 94787072548 🌟
+
+> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɴᴇᴛʜᴍɪᴋᴀ ᴍᴀɪɴ*`
 await conn.sendMessage(from, { audio: { url: voice.alive }, mimetype: 'audio/mp4', ptt: true }, { quoted: mek })
 return await conn.sendMessage(from,{image: {url: `https://i.ibb.co/tCkmbMx/IMG-20240913-WA0041.jpg`},caption: des},{quoted: mek})
 }catch(e){
