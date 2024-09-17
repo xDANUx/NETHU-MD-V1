@@ -13,15 +13,15 @@ try{
 const voice = {
     alive: 'media/AUD-20240909-WA0003'
                     }
-let des = `*👋 𝙷𝚎𝚕𝚕𝚘 ${pushname}*
+let des = `*👋 𝙷𝚎𝚕𝚕𝚘 ${pushname}* 𝙸'𝚖 𝚊𝚕𝚒𝚟𝚎 𝚗𝚘𝚠
 
-Hello I'm alive now 🫧💨
+I'm NETHU MD Whatsapp Bot 🫧💨
 
 Join Our Support Chanel : https://whatsapp.com/channel/0029VagCogPGufJ3kZWjsW3A 🌟
 
 Subscribe Our Youtube Chanel : https://www.youtube.com/@SlNethuMax 🌟
 
-Bot Owners : 94704227534 , 94787072548 🌟
+🌟 Haw are Nice Day 🌟
 
 > *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɴᴇᴛʜᴍɪᴋᴀ ᴍᴀɪɴ*`
 await conn.sendMessage(from, { audio: { url: voice.alive }, mimetype: 'audio/mp4', ptt: true }, { quoted: mek })
