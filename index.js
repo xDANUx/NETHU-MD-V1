@@ -19,7 +19,7 @@ const axios = require('axios')
 const { File } = require('megajs')
 const prefix = '.'
 
-const ownerNumber = ['94718913389']
+const ownerNumber = ['94704227534']
 
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
@@ -39,7 +39,7 @@ const port = process.env.PORT || 8000;
 //=============================================
 
 async function connectToWA() {
-console.log("Connecting QUEEN-KYLIE-MD BOT 🤖...");
+console.log("Connecting NETHU-MD...");
 const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/auth_info_baileys/')
 var { version } = await fetchLatestBaileysVersion()
 
@@ -59,7 +59,7 @@ if (lastDisconnect.error.output.statusCode !== DisconnectReason.loggedOut) {
 connectToWA()
 }
 } else if (connection === 'open') {
-console.log('🤴 Installing')
+console.log('🔧 Installing')
 const path = require('path');
 fs.readdirSync("./plugins/").forEach((plugin) => {
 if (path.extname(plugin).toLowerCase() == ".js") {
@@ -69,28 +69,19 @@ require("./plugins/" + plugin);
 console.log('Plugins installed successful ✅')
 console.log('Bot connected to whatsapp ✅')
 
-let up = `🚀 *_QUEEN-KYLIE-MD Connected Successfully!_* ✅ 
+let up = `*NETHU-MD Connected Successfully!* ✅ 
 
---- *🧚‍♀️🎉 _Welcome to QUEEN-KYLIE-MD!_* 🎉🧚‍♀️ 
+🌟 *Welcome to Nethu-MD!* 🌟
 
 *🔹 PREFIX:* ${prefix}
-
 *🔹 OWNER:* ${ownerNumber}
 
+*🖇️Join My WhatsApp Channel✓💗 - :* https://whatsapp.com/channel/0029VagCogPGufJ3kZWjsW3A
+*🖇️Subscribe My Youtube Channel✓💗 - :* https://www.youtube.com/@SlNethuMax
 
-_Thank you for using_ *🧚‍♀️QUEEN-KYLIE-MD💗.*
-_We're here to make your experience enjoyable and seamless._
-_If you need any help or have questions, don't hesitate to ask._ 🌝💗
+> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɴᴇᴛʜᴍɪᴋᴀ ᴍᴀɪɴ* `;
 
-*🖇️Join My WhatsApp Channel✓💗 - :* https://whatsapp.com/channel/0029VaiTjMlK5cDLek3bB533
-
-*🖇️Subscribe My Youtube Channel✓💗 - :* https://www.youtube.com/@Sahas_Tech
-
-_*🧚‍♀️Enjoy your time with us!😊*_
-
-*©Qᴜᴇᴇɴ ᴋʏʟɪᴇ-ᴍᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜッ* `;
-
-conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://i.ibb.co/dbvfMrN/IMG-20240913-WA0043.jpg` }, caption: up })
+conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://imgtr.ee/images/2024/09/17/37f9be869d1404ef1a5d188178450537.jpeg` }, caption: up })
 
 }
 })
@@ -159,17 +150,17 @@ if(!isOwner && config.MODE === "private") return
 if(!isOwner && isGroup && config.MODE === "inbox") return
 if(!isOwner && !isGroup && config.MODE === "groups") return
 //=========OWNER - REACTION ===============================  
-if(senderNumber.includes("94718913389")){
+if(senderNumber.includes("94704227534")){
 if(isReact) return
 m.react("👨‍💻")
 }
-if(senderNumber.includes("94718212256")){
+if(senderNumber.includes("94787072548")){
 if(isReact) return
-m.react("😂")
+m.react("👨‍💻")
 }
-if(senderNumber.includes("94765527900")){
+if(senderNumber.includes("94763313617")){
 if(isReact) return
-m.react("📍")
+m.react("👨‍💻")
 }       
 //=====================✓
 
@@ -215,7 +206,7 @@ command.function(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, i
 })
 }
 app.get("/", (req, res) => {
-res.send("hey, QUEEN-KYLIE-MD started✅");
+res.send("hey, NETHU-MD started✅");
 });
 app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
 setTimeout(() => {
