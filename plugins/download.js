@@ -1,1 +1,157 @@
-const _0x39d22c=_0x4645;function _0x4c49(){const _0x2c9705=['link_1','/api/gdrivedl?url=','*Downloading...*','../config','give\x20me\x20tiktok\x20url','mediafire','https://','../command','223576cNnbYI','6213GZekNF','sendMessage','-\x20NO-WATERMARK\x0a\x0a\x20','download','download\x20mfire\x20files','-\x20WITH-WATERMARK\x20\x0a\x0a\x20','download\x20apks','/api/twitterdl?url=','name','5796xCJZiE','203eJpAsZ','4797836TxVTAR','tiktok','modapk','give\x20me\x20gdrive\x20url','download\x20tt\x20videos','audio','startsWith','download\x20fb\x20videos','12978810oQxQrV','-\x20HD\x0a\x0a\x20','log','/api/mediafiredl?url=','twdl','>\x20*ᴘᴏᴡᴇʀᴇᴅ\x20ʙʏ\x20ɴᴇᴛʜᴍɪᴋᴀ\x20ᴍᴀɪɴ*','twitter','/api/apkdl?url=','no_wm','mfire','give\x20me\x20twitter\x20url','fileName','❗Apk\x20Not\x20Found,Sorry','give\x20me\x20fb\x20url','-\x20SD\x20\x0a\x0a\x20','../lib/functions','3430080vMJxQs','facebook','file_type','audio/mpeg','6805NZXabe','apk','video/mp4','https://raw.githubusercontent.com/prabathLK/PUBLIC-URL-HOST-DB/main/public/url.json','472fQDlgp','data','579704MsxvAQ'];_0x4c49=function(){return _0x2c9705;};return _0x4c49();}(function(_0x2d130a,_0x211d1c){const _0x5026b8=_0x4645,_0x45a546=_0x2d130a();while(!![]){try{const _0x3d992a=-parseInt(_0x5026b8(0x13b))/0x1+parseInt(_0x5026b8(0x139))/0x2*(parseInt(_0x5026b8(0x145))/0x3)+parseInt(_0x5026b8(0x150))/0x4+-parseInt(_0x5026b8(0x16c))/0x5*(-parseInt(_0x5026b8(0x14e))/0x6)+-parseInt(_0x5026b8(0x14f))/0x7*(parseInt(_0x5026b8(0x144))/0x8)+parseInt(_0x5026b8(0x168))/0x9+-parseInt(_0x5026b8(0x158))/0xa;if(_0x3d992a===_0x211d1c)break;else _0x45a546['push'](_0x45a546['shift']());}catch(_0x1a63ea){_0x45a546['push'](_0x45a546['shift']());}}}(_0x4c49,0xa9ecd));function _0x4645(_0x1a53d6,_0x1015d4){const _0x4c4993=_0x4c49();return _0x4645=function(_0x464548,_0x381764){_0x464548=_0x464548-0x136;let _0x4c8484=_0x4c4993[_0x464548];return _0x4c8484;},_0x4645(_0x1a53d6,_0x1015d4);}const {fetchJson}=require(_0x39d22c(0x167)),config=require(_0x39d22c(0x13f)),{cmd,commands}=require(_0x39d22c(0x143));let baseUrl;((async()=>{const _0x12036e=_0x39d22c;let _0x47a0d8=await fetchJson(_0x12036e(0x138));baseUrl=_0x47a0d8['api'];})());const yourName=_0x39d22c(0x15d);cmd({'pattern':'fb','alias':[_0x39d22c(0x169)],'desc':_0x39d22c(0x157),'category':'download','react':'🔽','filename':__filename},async(_0x3d6243,_0x1e7b64,_0x5cc0ca,{from:_0x251872,quoted:_0x3fef21,body:_0xd7ba3f,isCmd:_0x1de4af,command:_0x103398,args:_0x3d5a50,q:_0x5aabc4,isGroup:_0x2d7853,sender:_0x5e4a5b,senderNumber:_0x113be1,botNumber2:_0x3fca9a,botNumber:_0x43d221,pushname:_0xb22390,isMe:_0x411539,isOwner:_0x4cf6fc,groupMetadata:_0x559332,groupName:_0x14cd08,participants:_0x161354,groupAdmins:_0x1c3aaa,isBotAdmins:_0x3c7894,isAdmins:_0xe04c31,reply:_0x2369ff})=>{const _0x49087c=_0x39d22c;try{if(!_0x5aabc4&&!_0x5aabc4['startsWith'](_0x49087c(0x142)))return _0x2369ff(_0x49087c(0x165));let _0x284573=await fetchJson(baseUrl+'/api/fdown?url='+_0x5aabc4);_0x2369ff(_0x49087c(0x13e)),await _0x3d6243[_0x49087c(0x146)](_0x251872,{'video':{'url':_0x284573[_0x49087c(0x13a)]['hd']},'mimetype':_0x49087c(0x137),'caption':_0x49087c(0x159)+yourName},{'quoted':_0x1e7b64}),await _0x3d6243[_0x49087c(0x146)](_0x251872,{'video':{'url':_0x284573[_0x49087c(0x13a)]['sd']},'mimetype':_0x49087c(0x137),'caption':_0x49087c(0x166)+yourName},{'quoted':_0x1e7b64});}catch(_0x71d1a7){console[_0x49087c(0x15a)](_0x71d1a7),_0x2369ff(''+_0x71d1a7);}}),cmd({'pattern':_0x39d22c(0x151),'alias':['tt'],'desc':_0x39d22c(0x154),'category':_0x39d22c(0x148),'react':'🔽','filename':__filename},async(_0x14cce7,_0x59d92f,_0x1c4de8,{from:_0x1d1d81,quoted:_0x319085,body:_0x12753a,isCmd:_0x44332a,command:_0x52a7ee,args:_0xe068f1,q:_0x20e4bf,isGroup:_0x1865f0,sender:_0x371376,senderNumber:_0x36dca5,botNumber2:_0x472da6,botNumber:_0x31b0ec,pushname:_0x5a19ad,isMe:_0x1bd7d3,isOwner:_0x1e37b3,groupMetadata:_0x4847af,groupName:_0x467762,participants:_0x4f26d4,groupAdmins:_0x348ef4,isBotAdmins:_0x1db8f7,isAdmins:_0x5d669a,reply:_0x45a822})=>{const _0x4378c9=_0x39d22c;try{if(!_0x20e4bf&&!_0x20e4bf['startsWith']('https://'))return _0x45a822(_0x4378c9(0x140));let _0x1f55bc=await fetchJson(baseUrl+'/api/tiktokdl?url='+_0x20e4bf);_0x45a822(_0x4378c9(0x13e)),await _0x14cce7[_0x4378c9(0x146)](_0x1d1d81,{'video':{'url':_0x1f55bc[_0x4378c9(0x13a)][_0x4378c9(0x160)]},'mimetype':_0x4378c9(0x137),'caption':_0x4378c9(0x147)+yourName},{'quoted':_0x59d92f}),await _0x14cce7[_0x4378c9(0x146)](_0x1d1d81,{'video':{'url':_0x1f55bc[_0x4378c9(0x13a)]['wm']},'mimetype':_0x4378c9(0x137),'caption':_0x4378c9(0x14a)+yourName},{'quoted':_0x59d92f}),await _0x14cce7[_0x4378c9(0x146)](_0x1d1d81,{'audio':{'url':_0x1f55bc['data'][_0x4378c9(0x155)]},'mimetype':_0x4378c9(0x16b)},{'quoted':_0x59d92f});}catch(_0x59bfd5){console[_0x4378c9(0x15a)](_0x59bfd5),_0x45a822(''+_0x59bfd5);}}),cmd({'pattern':_0x39d22c(0x15e),'alias':[_0x39d22c(0x15c)],'desc':'download\x20tw\x20videos','category':_0x39d22c(0x148),'react':'🔽','filename':__filename},async(_0x2045ab,_0x3dbd7f,_0x415e23,{from:_0x50fabd,quoted:_0x109383,body:_0x3364ca,isCmd:_0x295f65,command:_0x3e211f,args:_0x3c54ff,q:_0x47e7ed,isGroup:_0x5d6d96,sender:_0x2a893d,senderNumber:_0x126c3c,botNumber2:_0x7c0b4,botNumber:_0x45213e,pushname:_0x2d1b84,isMe:_0x26d70e,isOwner:_0x3c0e44,groupMetadata:_0x2250f0,groupName:_0x379eb7,participants:_0x1446d1,groupAdmins:_0x448386,isBotAdmins:_0x1d72b6,isAdmins:_0x3b6dd7,reply:_0x2a3291})=>{const _0x57d495=_0x39d22c;try{if(!_0x47e7ed&&!_0x47e7ed[_0x57d495(0x156)](_0x57d495(0x142)))return _0x2a3291(_0x57d495(0x162));let _0x164497=await fetchJson(baseUrl+_0x57d495(0x14c)+_0x47e7ed);_0x2a3291(_0x57d495(0x13e)),await _0x2045ab[_0x57d495(0x146)](_0x50fabd,{'video':{'url':_0x164497[_0x57d495(0x13a)][_0x57d495(0x13a)]['HD']},'mimetype':_0x57d495(0x137),'caption':_0x57d495(0x159)+yourName},{'quoted':_0x3dbd7f}),await _0x2045ab[_0x57d495(0x146)](_0x50fabd,{'video':{'url':_0x164497['data'][_0x57d495(0x13a)]['SD']},'mimetype':_0x57d495(0x137),'caption':'-\x20SD\x20\x0a\x0a\x20'+yourName},{'quoted':_0x3dbd7f}),await _0x2045ab[_0x57d495(0x146)](_0x50fabd,{'audio':{'url':_0x164497['data'][_0x57d495(0x13a)][_0x57d495(0x155)]},'mimetype':_0x57d495(0x16b)},{'quoted':_0x3dbd7f});}catch(_0x8fafa6){console['log'](_0x8fafa6),_0x2a3291(''+_0x8fafa6);}}),cmd({'pattern':'gdrive','alias':['googledrive'],'desc':'download\x20gdrive\x20files','category':_0x39d22c(0x148),'react':'🔽','filename':__filename},async(_0x154c32,_0x3406c3,_0x11f135,{from:_0x4b9848,quoted:_0x2176f7,body:_0x2ae52a,isCmd:_0x4623cc,command:_0x2cfdbb,args:_0x3a69b9,q:_0x4933e7,isGroup:_0x215b76,sender:_0x577e68,senderNumber:_0x52e980,botNumber2:_0x502341,botNumber:_0x19e8c6,pushname:_0x1ed9e9,isMe:_0x282759,isOwner:_0x307946,groupMetadata:_0x8c70fc,groupName:_0x338271,participants:_0x22b937,groupAdmins:_0x4947d3,isBotAdmins:_0x3d1e66,isAdmins:_0x8def8f,reply:_0x3307cc})=>{const _0x1c3885=_0x39d22c;try{if(!_0x4933e7&&!_0x4933e7[_0x1c3885(0x156)]('https://'))return _0x3307cc(_0x1c3885(0x153));let _0x15a9a6=await fetchJson(baseUrl+_0x1c3885(0x13d)+_0x4933e7);_0x3307cc(_0x1c3885(0x13e)),await _0x154c32[_0x1c3885(0x146)](_0x4b9848,{'document':{'url':_0x15a9a6[_0x1c3885(0x13a)]['download']},'fileName':_0x15a9a6[_0x1c3885(0x13a)]['fileName'],'mimetype':_0x15a9a6['data']['mimeType'],'caption':_0x15a9a6[_0x1c3885(0x13a)][_0x1c3885(0x163)]+'\x0a\x0a'+yourName},{'quoted':_0x3406c3});}catch(_0x36a62c){console[_0x1c3885(0x15a)](_0x36a62c),_0x3307cc(''+_0x36a62c);}}),cmd({'pattern':_0x39d22c(0x141),'alias':[_0x39d22c(0x161)],'desc':_0x39d22c(0x149),'category':'download','react':'🔽','filename':__filename},async(_0x32edfb,_0x38d743,_0x1d5913,{from:_0x326564,quoted:_0x275db3,body:_0x44d66d,isCmd:_0x2b0cae,command:_0x54dbcb,args:_0xf9f74f,q:_0x3a5d43,isGroup:_0x366ae0,sender:_0x542bc0,senderNumber:_0xf0dcca,botNumber2:_0x31e068,botNumber:_0x944343,pushname:_0xe90f8f,isMe:_0x536e1a,isOwner:_0x3f1105,groupMetadata:_0x4d0e15,groupName:_0x50aa71,participants:_0x532535,groupAdmins:_0x138e37,isBotAdmins:_0x589a46,isAdmins:_0x3d1865,reply:_0xfe9ce3})=>{const _0x174ecc=_0x39d22c;try{if(!_0x3a5d43&&!_0x3a5d43[_0x174ecc(0x156)](_0x174ecc(0x142)))return _0xfe9ce3('give\x20me\x20mediafire\x20url');let _0x561d30=await fetchJson(baseUrl+_0x174ecc(0x15b)+_0x3a5d43);_0xfe9ce3('*Downloading...*'),await _0x32edfb[_0x174ecc(0x146)](_0x326564,{'document':{'url':_0x561d30[_0x174ecc(0x13a)][_0x174ecc(0x13c)]},'fileName':_0x561d30[_0x174ecc(0x13a)]['name'],'mimetype':_0x561d30[_0x174ecc(0x13a)]['file_type'],'caption':_0x561d30['data'][_0x174ecc(0x14d)]+'\x0a\x0a'+yourName},{'quoted':_0x38d743});}catch(_0x1c6b05){console['log'](_0x1c6b05),_0xfe9ce3(''+_0x1c6b05);}}),cmd({'pattern':_0x39d22c(0x136),'alias':[_0x39d22c(0x152)],'desc':_0x39d22c(0x14b),'category':'download','react':'🔽','filename':__filename},async(_0x47bfd0,_0x52984e,_0x180547,{from:_0x2d2aa5,quoted:_0x14c926,body:_0x1281bf,isCmd:_0x16fe55,command:_0x199069,args:_0xe392e1,q:_0x8be146,isGroup:_0x5bedb7,sender:_0x4afadd,senderNumber:_0xf3a8af,botNumber2:_0x50942b,botNumber:_0x40ea9c,pushname:_0x1b5871,isMe:_0x6e384e,isOwner:_0x5a7140,groupMetadata:_0x5dffc4,groupName:_0x4962f2,participants:_0x38c1a5,groupAdmins:_0x16e63c,isBotAdmins:_0x575463,isAdmins:_0x55c62c,reply:_0x27d522})=>{const _0x120efa=_0x39d22c;try{if(!_0x8be146&&!_0x8be146['startsWith'](_0x120efa(0x142)))return _0x27d522(_0x120efa(0x164));let _0x31f416=await fetchJson(baseUrl+_0x120efa(0x15f)+_0x8be146);_0x27d522(_0x120efa(0x13e)),await _0x47bfd0[_0x120efa(0x146)](_0x2d2aa5,{'document':{'url':_0x31f416[_0x120efa(0x13a)][_0x120efa(0x13c)]},'fileName':_0x31f416[_0x120efa(0x13a)][_0x120efa(0x14d)],'mimetype':_0x31f416[_0x120efa(0x13a)][_0x120efa(0x16a)],'caption':cap},{'quoted':_0x52984e});}catch(_0x4fb808){console['log'](_0x4fb808),_0x27d522(''+_0x4fb808);}});
+const { fetchJson } = require('../lib/functions')
+const config = require('../config')
+const { cmd, commands } = require('../command')
+
+// FETCH API URL
+let baseUrl;
+(async () => {
+    let baseUrlGet = await fetchJson(`https://raw.githubusercontent.com/prabathLK/PUBLIC-URL-HOST-DB/main/public/url.json`)
+    baseUrl = baseUrlGet.api
+})();
+
+
+const yourName = "*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɴᴇᴛʜᴍɪᴋᴀ ᴍᴀɪɴ*";
+
+
+
+//fb downloader
+cmd({
+    pattern: "fb",
+    alias: ["facebook"],
+    desc: "download fb videos",
+    category: "download",
+    react: "🔽",
+    filename: __filename
+},
+async(conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
+    try {
+        if (!q && !q.startsWith("https://")) return reply("give me fb url")
+        //fetch data from api  
+        let data = await fetchJson(`${baseUrl}/api/fdown?url=${q}`)
+        reply("*Downloading...*")
+        //send video (hd,sd)
+        await conn.sendMessage(from, { video: { url: data.data.hd }, mimetype: "video/mp4", caption: `- HD\n\n ${yourName}` }, { quoted: mek })
+        await conn.sendMessage(from, { video: { url: data.data.sd }, mimetype: "video/mp4", caption: `- SD \n\n ${yourName}` }, { quoted: mek })  
+    } catch (e) {
+        console.log(e)
+        reply(`${e}`)
+    }
+})
+
+//tiktok downloader
+cmd({
+    pattern: "tiktok",
+    alias: ["tt"],
+    desc: "download tt videos",
+    category: "download",
+    react: "🔽",
+    filename: __filename
+},
+async(conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
+    try {
+        if (!q && !q.startsWith("https://")) return reply("give me tiktok url")
+        //fetch data from api  
+        let data = await fetchJson(`${baseUrl}/api/tiktokdl?url=${q}`)
+        reply("*Downloading...*")
+        //send video (wm,nwm)
+        await conn.sendMessage(from, { video: { url: data.data.no_wm }, mimetype: "video/mp4", caption: `- NO-WATERMARK\n\n ${yourName}` }, { quoted: mek })
+        await conn.sendMessage(from, { video: { url: data.data.wm }, mimetype: "video/mp4", caption: `- WITH-WATERMARK \n\n ${yourName}` }, { quoted: mek })  
+        //send audio    
+        await conn.sendMessage(from, { audio: { url: data.data.audio }, mimetype: "audio/mpeg" }, { quoted: mek })  
+    } catch (e) {
+        console.log(e)
+        reply(`${e}`)
+    }
+})
+
+//twitter dl (x)
+cmd({
+    pattern: "twitter",
+    alias: ["twdl"],
+    desc: "download tw videos",
+    category: "download",
+    react: "🔽",
+    filename: __filename
+},
+async(conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
+    try {
+        if (!q && !q.startsWith("https://")) return reply("give me twitter url")
+        //fetch data from api  
+        let data = await fetchJson(`${baseUrl}/api/twitterdl?url=${q}`)
+        reply("*Downloading...*")
+        //send video (hd,sd)
+        await conn.sendMessage(from, { video: { url: data.data.data.HD }, mimetype: "video/mp4", caption: `- HD\n\n ${yourName}` }, { quoted: mek })
+        await conn.sendMessage(from, { video: { url: data.data.data.SD }, mimetype: "video/mp4", caption: `- SD \n\n ${yourName}` }, { quoted: mek })  
+        //send audio    
+        await conn.sendMessage(from, { audio: { url: data.data.data.audio }, mimetype: "audio/mpeg" }, { quoted: mek })  
+    } catch (e) {
+        console.log(e)
+        reply(`${e}`)
+    }
+})
+
+//gdrive(google drive) dl
+cmd({
+    pattern: "gdrive",
+    alias: ["googledrive"],
+    desc: "download gdrive files",
+    category: "download",
+    react: "🔽",
+    filename: __filename
+},
+async(conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
+    try {
+        if (!q && !q.startsWith("https://")) return reply("give me gdrive url")
+        //fetch data from api  
+        let data = await fetchJson(`${baseUrl}/api/gdrivedl?url=${q}`)
+        reply("*Downloading...*")
+        await conn.sendMessage(from, { document: { url: data.data.download }, fileName: data.data.fileName, mimetype: data.data.mimeType, caption: `${data.data.fileName}\n\n${yourName}` }, { quoted: mek })                                                                                                                 
+    } catch (e) {
+        console.log(e)
+        reply(`${e}`)
+    }
+})
+
+//mediafire dl
+cmd({
+    pattern: "mediafire",
+    alias: ["mfire"],
+    desc: "download mfire files",
+    category: "download",
+    react: "🔽",
+    filename: __filename
+},
+async(conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
+    try {
+        if (!q && !q.startsWith("https://")) return reply("give me mediafire url")
+        //fetch data from api  
+        let data = await fetchJson(`${baseUrl}/api/mediafiredl?url=${q}`)
+        reply("*Downloading...*")
+        await conn.sendMessage(from, { document: { url: data.data.link_1 }, fileName: data.data.name, mimetype: data.data.file_type, caption: `${data.data.name}\n\n${yourName}` }, { quoted: mek })                                                                                                                 
+    } catch (e) {
+        console.log(e)
+        reply(`${e}`)
+    }
+})
+
+//apk dl
+cmd({
+    pattern: "apk",
+    alias: ["modapk"],
+    desc: "download apks",
+    category: "download",
+    react: "🔽",
+    filename: __filename
+},
+async(conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
+    try {
+        if (!q && !q.startsWith("https://")) return reply("❗Apk Not Found,Sorry")
+        //fetch data from api  
+        let data = await fetchJson(`${baseUrl}/api/apkdl?url=${q}`)
+        reply("*Downloading...*")
+        await conn.sendMessage(from, { document: { url: data.data.link_1 }, fileName: data.data.name, mimetype: data.data.file_type, caption: cap }, { quoted: mek })                                                                                                                 
+    } catch (e) {
+        console.log(e)
+        reply(`${e}`)
+    }
+})
