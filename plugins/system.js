@@ -15,11 +15,11 @@ try{
 
 let status =`
 ┌────────────────────
-    *Runtime:-  ${runtime(process.uptime())}*    
-    *Ram usage:- ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB*
-    *Platform:- ${os.hostname()}*
-    *Owner:- Nethmika Main*   
-    *Version:- 1.0.0*
+| ➣   *Runtime:-  ${runtime(process.uptime())}*    
+| ➣   *Ram usage:- ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB*
+| ➣   *Platform:- ${os.hostname()}*
+| ➣   *Owner:- Nethmika Main*   
+| ➣   *Version:- 1.0.0*
 └────────────────────
 *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɴᴇᴛʜᴍɪᴋᴀ ᴍᴀɪɴ*`
 return reply(`${status}`)
