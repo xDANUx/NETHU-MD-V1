@@ -21,7 +21,7 @@ await conn.sendMessage(from, { audio: { url: voice.gn }, mimetype: 'audio/mp4', 
 
 
 } catch (e) {
-reply('Error !!')
+reply('අඩෝ අඩෝ මම හිතුවෙනෑ උබ ඔහොම එකෙක් කියලා 😹')
 l(e)
 }
 })
