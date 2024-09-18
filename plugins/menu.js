@@ -1,1 +1,97 @@
-const _0x4ecdee=_0x4771;function _0x4771(_0x4ccd1c,_0x5f30d5){const _0x32569e=_0x3256();return _0x4771=function(_0x4771a2,_0x3ce076){_0x4771a2=_0x4771a2-0x136;let _0x48f066=_0x32569e[_0x4771a2];return _0x48f066;},_0x4771(_0x4ccd1c,_0x5f30d5);}(function(_0x101669,_0x312fad){const _0x3307a8=_0x4771,_0x15d0a6=_0x101669();while(!![]){try{const _0x1935c5=-parseInt(_0x3307a8(0x156))/0x1*(-parseInt(_0x3307a8(0x151))/0x2)+-parseInt(_0x3307a8(0x153))/0x3+parseInt(_0x3307a8(0x148))/0x4*(parseInt(_0x3307a8(0x147))/0x5)+-parseInt(_0x3307a8(0x154))/0x6+-parseInt(_0x3307a8(0x14f))/0x7*(-parseInt(_0x3307a8(0x144))/0x8)+-parseInt(_0x3307a8(0x145))/0x9*(parseInt(_0x3307a8(0x143))/0xa)+parseInt(_0x3307a8(0x141))/0xb;if(_0x1935c5===_0x312fad)break;else _0x15d0a6['push'](_0x15d0a6['shift']());}catch(_0x2a1c3a){_0x15d0a6['push'](_0x15d0a6['shift']());}}}(_0x3256,0x2641b));const config=require(_0x4ecdee(0x152)),{cmd,commands}=require('../command'),os=require('os'),{runtime}=require(_0x4ecdee(0x157));cmd({'pattern':_0x4ecdee(0x138),'desc':'To\x20get\x20the\x20menu.','react':'📜','category':_0x4ecdee(0x136),'filename':__filename},async(_0x501cae,_0x1b250a,_0x59b8e0,{from:_0x18f5da,quoted:_0x4bdcf2,body:_0xdacfb2,isCmd:_0xf4c818,command:_0x75fdad,args:_0x8e8d39,q:_0x1b8884,isGroup:_0x57ebb4,sender:_0x5def32,senderNumber:_0x575365,botNumber2:_0x2354d2,botNumber:_0x4c89dc,pushname:_0x5aff51,isMe:_0x311b04,isOwner:_0x560472,groupMetadata:_0x177323,groupName:_0xd8fcef,participants:_0x3d9ded,groupAdmins:_0x41bc82,isBotAdmins:_0xb897e0,isAdmins:_0x16e909,reply:_0x14ae0d})=>{const _0x3e4608=_0x4ecdee;try{const _0x1ca622={'menu':_0x3e4608(0x13e)};let _0x371e43={'main':'','download':'','group':'','owner':'','convert':'','search':'','fun':'','voice':'','other':''};for(let _0x4a8851=0x0;_0x4a8851<commands[_0x3e4608(0x13b)];_0x4a8851++){commands[_0x4a8851]['pattern']&&!commands[_0x4a8851][_0x3e4608(0x13d)]&&(_0x371e43[commands[_0x4a8851]['category']]+='.'+commands[_0x4a8851][_0x3e4608(0x14d)]+'\x0a');}let _0x3fdfbd=_0x3e4608(0x139)+_0x5aff51+'*\x0a\x0a✨\x20𝗪𝗲𝗹𝗰𝗼𝗺𝗲\x20𝘁𝗼\x20𝗡𝗘𝗧𝗛𝗨-𝗠𝗗!\x20✨\x20\x0a\x0a╭─「\x20ᴄᴏᴍᴍᴀɴᴅꜱ\x20ᴘᴀɴᴇʟ\x20」\x0a\x0a│◈\x20ʀᴜɴᴛɪᴍᴇ\x20:\x20'+runtime(process[_0x3e4608(0x149)]())+'\x0a\x0a│◈\x20ᴏᴡɴᴇʀ\x20ɴᴀᴍᴇ\x20:\x20ɴᴇᴛʜᴍɪᴋᴀ\x20ᴍᴀɪɴ\x0a\x0a│◈\x20ᴏᴡɴᴇʀ\x20ɴᴜᴍʙᴇʀ\x20:\x2094704227534\x0a\x0a╰──────────●●►\x0a\x0a╭──────────●●►\x0a\x0a\x20📥\x20*𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝\x20𝐌𝐞𝐧𝐮*\x0a\x0a\x20\x20───────\x0a\x0a\x20'+_0x371e43['download']+'\x0a\x0a╰───────────●●►\x0a\x0a╭──────────●●►\x0a\x0a\x20🔧\x20*𝐌𝐚𝐢𝐧\x20𝐌𝐞𝐧𝐮*\x0a\x0a\x20\x20───────\x0a\x0a\x20'+_0x371e43[_0x3e4608(0x136)]+_0x3e4608(0x14c)+_0x371e43[_0x3e4608(0x13c)]+_0x3e4608(0x14a)+_0x371e43[_0x3e4608(0x13f)]+'\x0a\x0a╰───────────●●►\x0a\x0a╭──────────●●►\x0a\x0a\x20🔍\x20*𝐒𝐞𝐚𝐫𝐜𝐡\x20𝐌𝐞𝐧𝐮*\x0a\x0a\x20\x20───────\x0a\x0a\x20'+_0x371e43['search']+_0x3e4608(0x140)+_0x371e43[_0x3e4608(0x159)]+_0x3e4608(0x158)+_0x371e43[_0x3e4608(0x14e)]+_0x3e4608(0x146)+_0x371e43[_0x3e4608(0x150)]+_0x3e4608(0x15a);return await _0x501cae[_0x3e4608(0x137)](_0x18f5da,{'audio':{'url':_0x1ca622['menu']},'mimetype':_0x3e4608(0x155),'ptt':!![]},{'quoted':_0x1b250a}),await _0x501cae['sendMessage'](_0x18f5da,{'image':{'url':_0x3e4608(0x13a)},'caption':_0x3fdfbd},{'quoted':_0x1b250a});}catch(_0x2fe807){console[_0x3e4608(0x142)](_0x2fe807),_0x14ae0d(_0x3e4608(0x14b));}});function _0x3256(){const _0x546a99=['2976kHIYGt','uptime','\x0a\x0a╰───────────●●►\x0a\x0a╭──────────●●►\x0a\x0a\x20🔄\x20*𝐂𝐨𝐧𝐯𝐞𝐫𝐭\x20𝐌𝐞𝐧𝐮*\x0a\x0a\x20\x20───────\x0a\x0a\x20','Error','\x0a\x0a╰───────────●●►\x0a\x0a╭──────────●●►\x0a\x0a\x20🎉\x20*𝐅𝐮𝐧\x20𝐌𝐞𝐧𝐮*\x0a\x0a\x20\x20───────\x0a\x0a\x20','pattern','owner','521388cZYlKM','other','9914yUVino','../config','617466HvxIne','1226022shDisi','audio/mp4','41GSwWaM','../lib/functions','\x0a\x0a╰───────────●●►\x0a\x0a╭──────────●●►\x0a\x0a\x20🔒\x20*𝐎𝐰𝐧𝐞𝐫\x20𝐌𝐞𝐧𝐮*\x0a\x0a\x20\x20───────\x0a\x0a\x20','group','\x0a\x0a╰───────────●●►\x0a\x0a>\x20*ᴘᴏᴡᴇʀᴇᴅ\x20ʙʏ\x20ɴᴇᴛʜᴍɪᴋᴀ\x20ᴍᴀɪɴ*\x0a\x0a','main','sendMessage','menu','\x20*👋\x20Hello\x20','https://imgtr.ee/images/2024/09/17/37f9be869d1404ef1a5d188178450537.jpeg','length','fun','dontAddCommandList','AUD-20240918-WA0013.mp3','convert','\x0a\x0a╰───────────●●►\x0a\x0a╭──────────●●►\x0a\x0a\x20👥\x20*𝐆𝐫𝐨𝐮𝐩\x20𝐌𝐞𝐧𝐮*\x0a\x0a\x20\x20───────\x0a\x0a\x20','388069LHKNIt','log','490340tedPVI','16TOMujU','9OUjebU','\x0a\x0a╰───────────●●►\x0a\x0a╭──────────●●►\x0a\x0a\x20⚙️\x20*𝐎𝐭𝐡𝐞𝐫\x20𝐌𝐞𝐧𝐮*\x0a\x0a\x20\x20───────\x0a\x0a\x20','1535ZGYLWy'];_0x3256=function(){return _0x546a99;};return _0x3256();}
+const config = require('../config')
+const {cmd , commands} = require('../command')
+const os = require("os")
+const {runtime} = require('../lib/functions')
+
+cmd({
+    pattern: "menu",
+    desc: "To get the menu.",
+    react: "📜",
+    category: "main",
+    filename: __filename
+},
+async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+try{
+    
+const voice = {
+    menu: 'AUD-20240918-WA0013.mp3'
+}
+
+let menu = {
+main: '',
+download: '',
+group: '',
+owner: '',
+convert: '',
+search: '',
+fun: '',
+voice: '',
+other: ''
+};
+
+for (let i = 0; i < commands.length; i++) {
+if (commands[i].pattern && !commands[i].dontAddCommandList) {
+menu[commands[i].category] += `.${commands[i].pattern}\n`;
+ }
+}
+
+let madeMenu = ` *👋 Hello ${pushname}*
+
+✨ 𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 𝗡𝗘𝗧𝗛𝗨-𝗠𝗗! ✨ 
+╭─「 ᴄᴏᴍᴍᴀɴᴅꜱ ᴘᴀɴᴇʟ 」
+│◈ ʀᴜɴᴛɪᴍᴇ : ${runtime(process.uptime())}
+│◈ ᴏᴡɴᴇʀ ɴᴀᴍᴇ : ɴᴇᴛʜᴍɪᴋᴀ ᴍᴀɪɴ
+│◈ ᴏᴡɴᴇʀ ɴᴜᴍʙᴇʀ : 94704227534
+╰──────────●●►
+╭──────────●●►
+ 📥 *𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐌𝐞𝐧𝐮*
+  ───────
+ ${menu.download}
+╰───────────●●►
+╭──────────●●►
+ 🔧 *𝐌𝐚𝐢𝐧 𝐌𝐞𝐧𝐮*
+  ───────
+ ${menu.main}
+╰───────────●●►
+╭──────────●●►
+ 🎉 *𝐅𝐮𝐧 𝐌𝐞𝐧𝐮*
+  ───────
+ ${menu.fun}
+╰───────────●●►
+╭──────────●●►
+ 🔄 *𝐂𝐨𝐧𝐯𝐞𝐫𝐭 𝐌𝐞𝐧𝐮*
+  ───────
+ ${menu.convert}
+╰───────────●●►
+╭──────────●●►
+ 🔍 *𝐒𝐞𝐚𝐫𝐜𝐡 𝐌𝐞𝐧𝐮*
+  ───────
+ ${menu.search}
+╰───────────●●►
+╭──────────●●►
+ 👥 *𝐆𝐫𝐨𝐮𝐩 𝐌𝐞𝐧𝐮*
+  ───────
+ ${menu.group}
+╰───────────●●►
+╭──────────●●►
+ 🔒 *𝐎𝐰𝐧𝐞𝐫 𝐌𝐞𝐧𝐮*
+  ───────
+ ${menu.owner}
+╰───────────●●►
+╭──────────●●►
+ ⚙️ *𝐎𝐭𝐡𝐞𝐫 𝐌𝐞𝐧𝐮*
+  ───────
+ ${menu.other}
+╰───────────●●►
+
+> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɴᴇᴛʜᴍɪᴋᴀ ᴍᴀɪɴ*
+`
+
+await conn.sendMessage(from, { audio: { url: voice.menu }, mimetype: 'audio/mp4', ptt: true }, { quoted: mek })
+
+return await conn.sendMessage(from,{image: {url: `https://imgtr.ee/images/2024/09/17/37f9be869d1404ef1a5d188178450537.jpeg`},caption:madeMenu},{quoted: mek})
+}catch(e){
+console.log(e)
+reply(`Error`)
+}
+})
