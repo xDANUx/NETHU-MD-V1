@@ -1,1 +1,101 @@
-const _0x5c5a1e=_0x2492;(function(_0x165648,_0x12d21d){const _0x285a30=_0x2492,_0x298899=_0x165648();while(!![]){try{const _0x23aee2=parseInt(_0x285a30(0x110))/0x1+parseInt(_0x285a30(0xed))/0x2*(-parseInt(_0x285a30(0xf7))/0x3)+-parseInt(_0x285a30(0x109))/0x4+parseInt(_0x285a30(0x104))/0x5*(-parseInt(_0x285a30(0xf8))/0x6)+-parseInt(_0x285a30(0xec))/0x7*(-parseInt(_0x285a30(0x10e))/0x8)+parseInt(_0x285a30(0x10c))/0x9+parseInt(_0x285a30(0xf0))/0xa;if(_0x23aee2===_0x12d21d)break;else _0x298899['push'](_0x298899['shift']());}catch(_0x2df72d){_0x298899['push'](_0x298899['shift']());}}}(_0x3a70,0xd483f));function _0x2492(_0x2a9739,_0x3848b9){const _0x3a70f0=_0x3a70();return _0x2492=function(_0x2492c9,_0x267ab5){_0x2492c9=_0x2492c9-0xec;let _0x2a1c11=_0x3a70f0[_0x2492c9];return _0x2a1c11;},_0x2492(_0x2a9739,_0x3848b9);}const {cmd,commands}=require(_0x5c5a1e(0x103)),fg=require('api-dylux'),yts=require('yt-search');cmd({'pattern':'song','react':'🎧','desc':'downlod\x20song','category':_0x5c5a1e(0x102),'filename':__filename},async(_0x42e3a9,_0x32213d,_0x358eb6,{from:_0x211e28,quoted:_0x1a5022,body:_0xb0528c,isCmd:_0x196e25,command:_0x3e2cf9,args:_0x51e409,q:_0x437a0d,isGroup:_0x31c9cf,sender:_0x44065a,senderNumber:_0x4b92d0,botNumber2:_0x239c5a,botNumber:_0x368d60,pushname:_0x25f9ca,isMe:_0x381f4b,isOwner:_0x111e91,groupMetadata:_0x19d6db,groupName:_0x4cfa05,participants:_0x25b7c3,groupAdmins:_0x5a0bde,isBotAdmins:_0x4d0bf2,isAdmins:_0x3f1d7a,reply:_0x2ce539})=>{const _0x1107ba=_0x5c5a1e;try{if(!_0x437a0d)return _0x2ce539(_0x1107ba(0x105));const _0x37d56e=await yts(_0x437a0d),_0x2067a0=_0x37d56e[_0x1107ba(0x10f)][0x0],_0x42bee7=_0x2067a0[_0x1107ba(0xff)];let _0x365af0=_0x1107ba(0x10a)+_0x2067a0[_0x1107ba(0xf9)]+_0x1107ba(0xfb)+_0x2067a0[_0x1107ba(0xef)]+_0x1107ba(0x112)+_0x2067a0[_0x1107ba(0xf5)]+_0x1107ba(0xf2)+_0x2067a0[_0x1107ba(0xf3)]+_0x1107ba(0x10d)+_0x2067a0[_0x1107ba(0x108)]+_0x1107ba(0xfa);await _0x42e3a9[_0x1107ba(0x111)](_0x211e28,{'image':{'url':_0x2067a0[_0x1107ba(0xf4)]},'caption':_0x365af0},{'quoted':_0x32213d});let _0x34b9b8=await fg[_0x1107ba(0x100)](_0x42bee7),_0xb7d97b=_0x34b9b8[_0x1107ba(0x107)];await _0x42e3a9[_0x1107ba(0x111)](_0x211e28,{'audio':{'url':_0xb7d97b},'mimetype':'audio/mpeg','caption':_0x1107ba(0xfc)},{'quoted':_0x32213d}),await _0x42e3a9[_0x1107ba(0x111)](_0x211e28,{'document':{'url':_0xb7d97b},'mimetype':_0x1107ba(0xee),'fileName':_0x2067a0[_0x1107ba(0xf9)]+_0x1107ba(0x113),'caption':_0x1107ba(0xfc)},{'quoted':_0x32213d});}catch(_0x5642b3){console[_0x1107ba(0xf1)](_0x5642b3),_0x2ce539(''+_0x5642b3);}}),cmd({'pattern':_0x5c5a1e(0xfe),'react':'🎬','desc':_0x5c5a1e(0x101),'category':_0x5c5a1e(0x102),'filename':__filename},async(_0x30cdad,_0x4b3627,_0x51946c,{from:_0x26271b,quoted:_0x41a1ab,body:_0x5900a5,isCmd:_0x2597e5,command:_0x4d474c,args:_0x58bde5,q:_0xafe38,isGroup:_0x456a7a,sender:_0x21b077,senderNumber:_0x5bfea9,botNumber2:_0x5e29b7,botNumber:_0x24fd8b,pushname:_0x10d14c,isMe:_0x230cb1,isOwner:_0x27d5a6,groupMetadata:_0xc560d2,groupName:_0x3e32e8,participants:_0x5a1a1b,groupAdmins:_0x34f48d,isBotAdmins:_0x3ba801,isAdmins:_0x4c7bdb,reply:_0x181e04})=>{const _0x4b2222=_0x5c5a1e;try{if(!_0xafe38)return _0x181e04('❌Please\x20give\x20me\x20url\x20or\x20title');const _0xdd2f74=await yts(_0xafe38),_0x2f93c9=_0xdd2f74[_0x4b2222(0x10f)][0x0],_0x1d3da2=_0x2f93c9[_0x4b2222(0xff)];let _0x21346a=_0x4b2222(0x106)+_0x2f93c9[_0x4b2222(0xf9)]+_0x4b2222(0xfb)+_0x2f93c9[_0x4b2222(0xef)]+_0x4b2222(0x112)+_0x2f93c9[_0x4b2222(0xf5)]+'*\x0a\x0a|\x20📌\x20*ago*\x20:\x20*'+_0x2f93c9[_0x4b2222(0xf3)]+_0x4b2222(0x10d)+_0x2f93c9[_0x4b2222(0x108)]+_0x4b2222(0xfa);await _0x30cdad[_0x4b2222(0x111)](_0x26271b,{'image':{'url':_0x2f93c9[_0x4b2222(0xf4)]},'caption':_0x21346a},{'quoted':_0x4b3627});let _0x536410=await fg[_0x4b2222(0x10b)](_0x1d3da2),_0x27e0f5=_0x536410[_0x4b2222(0x107)];await _0x30cdad[_0x4b2222(0x111)](_0x26271b,{'video':{'url':_0x27e0f5},'mimetype':_0x4b2222(0xf6),'caption':_0x4b2222(0xfc)},{'quoted':_0x4b3627}),await _0x30cdad[_0x4b2222(0x111)](_0x26271b,{'document':{'url':_0x27e0f5},'mimetype':_0x4b2222(0xf6),'fileName':_0x2f93c9['title']+_0x4b2222(0xfd),'caption':_0x4b2222(0xfc)},{'quoted':_0x4b3627});}catch(_0x133559){console[_0x4b2222(0xf1)](_0x133559),_0x181e04(''+_0x133559);}});function _0x3a70(){const _0x10c7aa=['title','*\x0a\x0a|__________________________\x0a\x0a>\x20*ᴘᴏᴡᴇʀᴇᴅ\x20ʙʏ\x20ɴᴇᴛʜᴍɪᴋᴀ\x20ᴍᴀɪɴ*\x0a\x0a','*\x0a\x0a|\x20📋\x20*description*\x20:\x20*','>\x20*ᴘᴏᴡᴇʀᴇᴅ\x20ʙʏ\x20ɴᴇᴛʜᴍɪᴋᴀ\x20ᴍᴀɪɴ*','.mp4','video','url','yta','downlod\x20video','downlod','../command','8935LMHRQt','*❌Please\x20give\x20me\x20url\x20or\x20titel*','\x0a\x0a*📽🎬𝗡𝗘𝗧𝗛𝗨\x20𝗠𝗗\x20𝗩𝗜𝗗𝗘𝗢\x20𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗥🎬*\x0a\x0a\x20__________________________\x0a\x0a|\x20ℹ️\x20*title*\x20:\x20*','dl_url','views','1553084OfyFsM','\x0a\x0a\x20*🎶𝗡𝗘𝗧𝗛𝗨\x20𝗠𝗗\x20𝗔𝗨𝗗𝗜𝗢\x20𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗥🎶*\x0a\x0a\x20__________________________\x0a\x0a|\x20ℹ️\x20*title*\x20:\x20*','ytv','6327108GIUrHB','*\x0a\x0a|\x20📉\x20*views*\x20:\x20*','7880872QJZAjV','videos','1549365TAUgTb','sendMessage','*\x0a\x0a|\x20🕘\x20*time*\x20:\x20*','.mp3','7yLxpeI','11114LQNRuf','audio/mpeg','description','3704160qzvRCh','log','*\x0a\x0a|\x20📌\x20*ago*\x20:\x20*','ago','thumbnail','timestamp','video/mp4','399GmQRbS','5406JYbBOU'];_0x3a70=function(){return _0x10c7aa;};return _0x3a70();}
+const {cmd , commands} = require('../command')
+const fg = require('api-dylux')
+const yts = require('yt-search')
+
+cmd({
+    pattern: "song",
+    react: "🎧",
+    desc: "downlod song",
+    category: "downlod",
+    filename: __filename
+},
+async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+try{
+
+if(!q) return reply("*❌Please give me url or titel*")
+const search = await yts(q)
+const deta = search.videos[0];
+const url = deta.url 
+
+let desc= `
+ *🎶𝗡𝗘𝗧𝗛𝗨 𝗠𝗗 𝗔𝗨𝗗𝗜𝗢 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗥🎶*
+ __________________________
+| ℹ️ *title* : *${deta.title}*
+| 📋 *description* : *${deta.description}*
+| 🕘 *time* : *${deta.timestamp}*
+| 📌 *ago* : *${deta.ago}*
+| 📉 *views* : *${deta.views}*
+|__________________________
+
+> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɴᴇᴛʜᴍɪᴋᴀ ᴍᴀɪɴ*
+
+`
+
+await conn.sendMessage(from,{image :{ url: deta.thumbnail},caption:desc},{quoted:mek});
+
+//downlod audio+ document
+
+let down = await fg.yta(url)
+let downloadUrl = down.dl_url
+
+//send audio message 
+await conn.sendMessage(from,{audio:{url:downloadUrl},mimetype:"audio/mpeg",caption :"> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɴᴇᴛʜᴍɪᴋᴀ ᴍᴀɪɴ*"},{quoted:mek})
+await conn.sendMessage(from,{document:{url:downloadUrl},mimetype:"audio/mpeg",fileName:deta.title + ".mp3" ,caption :"> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɴᴇᴛʜᴍɪᴋᴀ ᴍᴀɪɴ*"},{quoted:mek})
+
+  
+
+}catch(e){
+console.log(e)
+reply(`${e}`)
+}
+})
+
+//========video dl=======
+
+cmd({
+    pattern: "video",
+    react: "🎬",
+    desc: "downlod video",
+    category: "downlod",
+    filename: __filename
+},
+async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+try{
+
+if(!q) return reply("❌Please give me url or title")
+const search = await yts(q)
+const deta = search.videos[0];
+const url = deta.url 
+
+let desc= `
+*📽🎬𝗡𝗘𝗧𝗛𝗨 𝗠𝗗 𝗩𝗜𝗗𝗘𝗢 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗥🎬*
+ __________________________
+| ℹ️ *title* : *${deta.title}*
+| 📋 *description* : *${deta.description}*
+| 🕘 *time* : *${deta.timestamp}*
+| 📌 *ago* : *${deta.ago}*
+| 📉 *views* : *${deta.views}*
+|__________________________
+
+> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɴᴇᴛʜᴍɪᴋᴀ ᴍᴀɪɴ*
+
+`
+
+await conn.sendMessage(from,{image :{ url: deta.thumbnail},caption:desc},{quoted:mek});
+
+//downlod video + document 
+
+let down = await fg.ytv(url)
+let downloadUrl = down.dl_url
+
+//send video  message 
+await conn.sendMessage(from,{video:{url:downloadUrl},mimetype:"video/mp4",caption :"> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɴᴇᴛʜᴍɪᴋᴀ ᴍᴀɪɴ*"},{quoted:mek})
+await conn.sendMessage(from,{document:{url:downloadUrl},mimetype:"video/mp4",fileName:deta.title + ".mp4",caption :"> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɴᴇᴛʜᴍɪᴋᴀ ᴍᴀɪɴ*"},{quoted:mek})
+
+  
+
+}catch(e){
+console.log(e)
+reply(`${e}`)
+}
+})
